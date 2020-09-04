@@ -12,13 +12,16 @@ const Bar = () => {
 
             <div className="collapse navbar-collapse" id="ftco-nav">
                 <ul className="navbar-nav ml-auto">
-                <li className="nav-item"><a href="index.html" className="nav-link">Home</a></li>
-                <li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
-                <li className="nav-item"><a href="services.html" className="nav-link">Services</a></li>
-                <li className="nav-item"><a href="pricing.html" className="nav-link">Pricing</a></li>
-                <li className="nav-item"><a href="car.html" className="nav-link">Cars</a></li>
-                <li className="nav-item active"><a href="blog.html" className="nav-link">Blog</a></li>
-                <li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
+                <li className="nav-item"><a href="index.html" className="nav-link">Explora</a></li>
+                <li className="nav-item"><a href="about.html" className="nav-link">Publica un espacio</a></li>
+                <li className="nav-item"><button data-toggle="collapse" data-target="#demo" className="nav-link btn btn-success btn-sm"><i className="fas fa-user-astronaut fa-1x"></i></button></li>
+							<div id="demo" className="collapse">
+								<div className="btn-group-vertical">
+								<a href="dashboard/" className="btn btn-success btn-sm">Mis Espacios</a>
+								<a href="profile/" className="btn btn-success btn-sm">Mi Perfil</a>
+								<a href="admin/fin.php" className="btn btn-success btn-sm"><i className="fas fa-times-circle"></i> sesion</a>
+								</div>
+							</div>
                 </ul>
             </div>
             </div>
